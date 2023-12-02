@@ -1,11 +1,17 @@
 {
-  "name": "adventofcode2023",
-  "module": "index.ts",
-  "devDependencies": {
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "type": "module"
+	"name": "adventofcode2023",
+	"module": "index.ts",
+	"scripts": {
+		"clean": "prettier --write ."
+	},
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"prettier": "^3.1.0"
+	}
 }
